@@ -2,17 +2,13 @@
 // This file contains the setup for connecting forms to Google Sheets
 
 // Google Sheets API Configuration
-const GOOGLE_SHEETS_CONFIG = {
-    // Replace with your actual Google Sheets API key
-    API_KEY: 'AIzaSyDCAOpSEp3WWrLI6YBGR8nnPI6xCd19unE',
-    
-    // Replace with your actual Google Sheets ID (found in the URL)
-    SPREADSHEET_ID: '1i-SwN4uBnQhwWXGP0D0p6GPByd7dY0IG_hth0xH51q4',
-    
-    // Sheet names for different data
-    SHEETS: {
-        RSVP: 'RSVP_Responses',
-        GIFTS: 'Gift_Contributions'
+    const GOOGLE_SHEETS_CONFIG = {
+        API_KEY: process.env.AIzaSyDCAOpSEp3WWrLI6YBGR8nnPI6xCd19unE,
+        SPREADSHEET_ID: process.env.1i-SwN4uBnQhwWXGP0D0p6GPByd7dY0IG_hth0xH51q4,
+        SHEETS: {
+            RSVP: 'RSVP_Responses',
+            GIFTS: 'Gift_Contributions'
+        }
     },
     
     // Column mappings for RSVP form
@@ -253,4 +249,5 @@ if (typeof module !== 'undefined' && module.exports) {
         GOOGLE_SHEETS_CONFIG
     };
 }
+
 
