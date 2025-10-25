@@ -4,10 +4,10 @@
 // Google Sheets API Configuration
 const GOOGLE_SHEETS_CONFIG = {
     // Replace with your actual Google Sheets API key
-    API_KEY: 'YOUR_GOOGLE_SHEETS_API_KEY',
+    API_KEY: 'AIzaSyDCAOpSEp3WWrLI6YBGR8nnPI6xCd19unE',
     
     // Replace with your actual Google Sheets ID (found in the URL)
-    SPREADSHEET_ID: 'YOUR_SPREADSHEET_ID',
+    SPREADSHEET_ID: '1i-SwN4uBnQhwWXGP0D0p6GPByd7dY0IG_hth0xH51q4',
     
     // Sheet names for different data
     SHEETS: {
@@ -253,3 +253,4 @@ if (typeof module !== 'undefined' && module.exports) {
         GOOGLE_SHEETS_CONFIG
     };
 }
+
